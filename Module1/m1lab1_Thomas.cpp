@@ -12,7 +12,7 @@ int main() {
     double cost_each = 1.25; //Double relates to decimal values, such as twenty five cents, 0.25
 
     cout << "Welcome to the " <<name<< " apple farm" <<endl;
-    cout << "There are " <<num_apples<< " apples in stock" <<endl;
+    cout << "There are " <<num_apples<< " apples in stock." <<endl;
     cout << "They cost $" <<cost_each<< " each." <<endl;
 
     double total_cost=num_apples*cost_each;
