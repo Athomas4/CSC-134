@@ -1,3 +1,8 @@
+//CSC-134
+//Hello World
+//Andrae Thomas
+//1-13-2025
+
 #include <iostream>
 
 using namespace std;
