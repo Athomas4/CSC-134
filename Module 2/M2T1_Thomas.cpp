@@ -21,9 +21,8 @@ int main() {
     cout << "They cost $" <<cost_each<< " each." <<endl;
     cout << "How many apples would you like, " <<user_name<< "?" <<endl;
     
-    double total_cost=num_apples*cost_each;
-    cout << "The price for all of them is: $" << total_cost << endl;
-
+    cin >> apples_to_buy;
+    cout << "That will be " <<apples_to_buy*cost_each<< "$, Enjoy your " <<apples_to_buy<< " apples!" <<endl;
     cout << endl;
     return 0;
 }
