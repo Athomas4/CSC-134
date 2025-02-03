@@ -14,13 +14,13 @@ int main() {
     int num_apples = 101; //int means whole numbers such as 1, 2, 12353, etc.
     double cost_each = 1.25; //Double relates to decimal values, such as twenty five cents, 0.25
     double tax_rate = 0.08;
-    double tax_total;
     //indicate how to calculate tax_total
 
     string user_name;
     int apples_to_buy;
-    double total_cost;
+    double subtotal;
     double total;
+    double tax;
 
     cout << "Hello, what is your name? ";
     cin >> user_name;
@@ -30,9 +30,13 @@ int main() {
     cout << "How many apples would you like, " <<user_name<< "?" <<endl;
     
     cin >> apples_to_buy;
-    total_cost = apples_to_buy*cost_each;
-     tax_total = total_cost*tax_rate;
-     total = tax_total + total_cost;
-    cout << "with $0.08 tax that will be $" <<total<< " Enjoy your " <<apples_to_buy<< " apples!" <<endl;
+    cout << setprecision(2) << fixed;
+    subtotal = apples_to_buy*cost_each;
+     tax = subtotal*tax_rate;
+     total = subtotal+tax;
+     cout <<"subtotal\t$"<<subtotal<< endl;
+     cout <<"tax_rate\t%"<<tax_rate<< endl;
+     cout <<"tax\t\t$"<<tax<< endl;
+    cout << "with 8% tax that will be $" <<total<< " Enjoy your " <<apples_to_buy<< " apples!" <<endl;
     cout << endl;
     return 0;}
