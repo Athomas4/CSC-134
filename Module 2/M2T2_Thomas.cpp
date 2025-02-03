@@ -3,9 +3,10 @@
 //Module 2 Tutorial 2
 //1-29-2025
 
-//This is an adjustment to the M2T1 File to dinclude taxes
+//This is an adjustment to the M2T1 File to include taxes
 
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main() {
