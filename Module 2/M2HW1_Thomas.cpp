@@ -32,7 +32,7 @@ int main() {
     cout <<"Thank you for using "<<bank<< endl;
     cout <<"Account Number:        "<<account_number<< endl;
     cout<<"-------------------------------"<< endl;
-    cout <<"Total Balance:                 $"<<Total_Balance<< endl;
+    cout <<"Total Balance:              $"<<Total_Balance<< endl;
 
 }
 
