@@ -28,6 +28,7 @@ cin>>height;
     charge=CHARGE_PER_CUBIC_FOOT*Volume;
     profit=charge-cost;
 
+cout<<setprecision(2)<<fixed<<showpoint;
 cout<<"A crate that is " <<length<< " by " <<width<< " by " <<height<< endl;
 cout<<"Crate Volume: " <<Volume<< endl;
 cout<<"The Cost to make is: $"<<cost<<endl;
