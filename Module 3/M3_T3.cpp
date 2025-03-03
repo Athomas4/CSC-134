@@ -21,9 +21,10 @@ int main() {
     cout << "How much are you going to bet? $";
     cin >> money;
     
-    if (money <= 0) {
+    while (money <= 0) {
         cout << "Enter a number greater than 0 my friend." << endl;
-        return 1;
+        cout << "How much are you going to bet? $";
+        cin >> money;
     }
 
     int roll;
