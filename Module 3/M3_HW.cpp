@@ -2,7 +2,6 @@
 //Module 3 Homework
 //Andrae Thomas
 //3-2-2025
-//This File is a work in progess still
 #include <iostream>
 using namespace std;
 
